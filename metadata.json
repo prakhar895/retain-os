@@ -1,0 +1,6 @@
+{
+  "name": "Retain OS",
+  "description": "Customer Churn Risk and Retention Playbook command center for B2B SaaS Customer Success teams.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
