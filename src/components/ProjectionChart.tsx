@@ -43,12 +43,12 @@ export const ProjectionChart: React.FC<ProjectionChartProps> = ({
   const renewalXKey = renewalPoint ? renewalPoint.day : `+${renewalDays}d`;
 
   return (
-    <div className="bg-[#0D1C2D] border border-[#232B38] rounded-xl p-3.5 select-none shadow-lg relative overflow-hidden transition-all duration-300">
+    <div className="bg-[#0D1C2D] border border-[#232B38] rounded-xl p-2.5 select-none shadow-lg relative overflow-hidden transition-all duration-300">
       {/* Background Accent Glow */}
       <div className="absolute top-0 right-0 w-48 h-48 bg-[#2DD4BF]/5 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header Metric Strip */}
-      <div className="flex flex-col gap-2 mb-3">
+      <div className="flex flex-col gap-2 mb-2">
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <span className="relative flex h-2 w-2">
@@ -104,7 +104,7 @@ export const ProjectionChart: React.FC<ProjectionChartProps> = ({
       </div>
 
       {/* Chart Canvas */}
-      <div className="h-32 w-full">
+      <div className="h-28 w-full">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data} margin={{ top: 12, right: 12, left: -24, bottom: 0 }}>
             <defs>
